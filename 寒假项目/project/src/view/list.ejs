@@ -1,0 +1,46 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-01-26 10:41:59
+ * @LastEditTime : 2020-02-01 10:27:36
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /project/src/view/list.ejs
+-->
+<div class="header">
+    <h1>影院</h1>
+</div>
+<section class="topbar">
+    <div class="city-entry">
+        <span>北京</span>
+        <i></i>
+    </div>
+    <div class="search-entry search-input">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-sousuo"></use>
+        </svg>
+        <span>搜影院</span>
+    </div>
+</section>
+<div class="tab mb-line-b">
+    <div class="item" data-tab=".region"><span>全城</span><span class="drop"></span></div>
+    <div class="item" data-tab=".brand"><span>品牌</span><span class="drop"></span></div>
+    <div class="item" data-tab=".special"><span>特色</span><span class="drop"></span></div>
+</div>
+
+<div class="list-wrap2">
+    <% for(let i=0;i<12;i++){%>
+        <div class="item">
+            <div class="item-title">华谊兄弟电影汇</div>
+            <div class="item-content">
+                <span>朝阳区新源南路甲2号华谊兄弟办公楼首层</span>
+                <span>400m</span>
+            </div>
+            <div class="label-block">
+                <div class="allowRefund">退</div>
+                <div class="endorse">改签</div>
+                <div class="hallType">DTS:X 临境音厅</div>
+            </div>
+        </div>        
+    <%} %> 
+
+</div>

@@ -1,0 +1,132 @@
+div.header{
+    height: 50.5/50+rem;
+    background: #e54847;
+    color: #fff;
+    h1{
+        height: 100%;
+        font-size: 18/50+rem;
+        font-weight: 400;
+    }
+}
+section.topbar{
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 44/50+rem;
+    .city-entry{
+        padding-left: 15px;
+        font-size: 15px;
+        color: #666;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center; 
+        i{
+            width: 0;
+            height: 0;
+            border: 4px solid #b0b0b0;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            display: inline-block;
+            margin-left: 4px;
+            margin-top: 5px;            
+        }       
+    }
+    .search-entry{
+
+    }
+    .search-input{
+        flex: 1;
+        display: flex;
+        background-color: #fff;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        height: 28px;
+        font-size: 13px;
+        color: #b2b2b2;
+        margin-left: 18px;
+        border: .5px solid #e6e6e6;
+        border-radius: 5px;
+        margin-right: 15px        
+    }
+}
+.tab{
+    width: 100%;
+    height: 40/50+rem;
+    border-bottom: .5px solid #e8e8e8;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    .item{
+        flex: 1;
+        text-align: center;
+        line-height: 40/50+rem;
+        .drop{
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: 4px;
+            border: 4px solid transparent;
+            border-top-color: #b0b0b0;            
+        }
+    }
+}
+
+.list-wrap2{
+    position: absolute;
+    top: 134.5/50+rem;
+    bottom: 47.5/50+rem;
+    width: 100%;
+    overflow: auto;
+    .item{
+        padding: 13/50+rem 15/50+rem 13/50+rem 0;
+        padding-left: 15/50+rem;
+        // margin-right: 15/50+rem;
+        margin-bottom: 3/50+rem;
+        background-color: #fff;
+        position: relative;
+        overflow: hidden;        
+    }
+    .item-title{
+        height: 23/50+rem;
+        line-height: 23/50+rem;
+        font-size: 16/50+rem;
+        color: #000;            
+    }
+    .label-block{
+        height: 17/50+rem;
+        line-height: 17/50+rem;
+        margin-top: 4/50+rem;
+        margin-bottom: 4/50+rem;
+        overflow: hidden;
+        font-size: 0;
+        flex-shrink: 0;
+        div{
+            position: relative;
+            display: inline-block;
+            padding: 0 3/50+rem;
+            height: 15/50+rem;
+            line-height: 15/50+rem;
+            border-radius: 2/50+rem;
+            font-size: 12/50+rem;
+            margin-left: 5/50+rem;                
+        }
+    
+    }
+    .allowRefund{
+        color: #589daf;
+        border: 1px solid #589daf;
+    }
+    .endorse{
+        color: #589daf;
+        border: 1px solid #589daf;            
+    }
+    .hallType{
+        color: #f90;
+        border: 1px solid #f90;            
+    }
+}

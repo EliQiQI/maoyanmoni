@@ -1,0 +1,48 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-02-03 21:38:26
+ * @LastEditTime : 2020-02-03 21:58:51
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /project/learnEcharts/test.html
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // new Promise((resolve)=>{
+    //     setTimeout(()=>{
+    //         var obj={id:1,name:"cheeliu"};
+    //         resolve(obj);
+    //     },1000)
+    // })
+    // .then((data)=>{
+    //     //数据渲染
+    // })
+
+    function fn(){
+        return new Promise((resolve)=>{
+            setTimeout(()=>{
+                var obj={id:1,name:"cheeliu"};
+                resolve(obj);
+            },1000)
+        })
+    }
+
+
+    async function fn1(){
+        let data=await fn();
+        console.log(data);
+        console.log(111);
+    }
+    fn1();
+</script>
